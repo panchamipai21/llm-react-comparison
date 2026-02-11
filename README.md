@@ -9,8 +9,6 @@ Code organization and readability
 Handling of assumptions and default behaviors
 
 Key Observations :
-Prompt specificity strongly affected output quality.
-Clear constraints reduced unnecessary assumptions.
 Claude tended to include additional UI features by default, while ChatGPT focused more on functional and minimal implementations.
 Iterative prompting improved structural clarity and reusability in both cases.
 

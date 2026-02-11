@@ -1,32 +1,20 @@
-LLM-Based React Mini Project Comparison Objective
-This repository contains a comparative study of React-based mini applications generated using two large language models: ChatGPT and Claude. 
-The goal was to understand how different LLMs approach frontend development tasks when provided with similar prompts.
+LLM-Based React Mini Project Comparison
+Overview : 
+This repository contains a comparison of two React mini applications (Flashcard App and To-Do List App) generated using ChatGPT and Claude. The goal was to analyze how different LLMs approach frontend development when given similar prompts.
 
-Projects Included
-Flashcard App (ChatGPT vs Claude)
-To-Do List App (ChatGPT vs Claude)
-Each application was generated separately using consistent prompts to observe differences in implementation style, structure, and reasoning.
-
-Focus of Comparison
-The comparison was based on:
-Component structuring and modularity
+Comparison Focus :
+Component structure and modularity
 State management using React hooks
-Code readability and organization
+Code organization and readability
 Handling of assumptions and default behaviors
-Clarity of explanation provided by the model
 
-Observations
-Prompt specificity significantly influenced output quality.
-Clearly defined constraints reduced unnecessary assumptions
-Iterative refinement improved structural clarity and reusability.
-Differences were observed in how each model structured components and explained logic.
-Majorly, Claude tended to include more built-in features and slightly more structured UI elements by default, whereas ChatGPT focused more on functional implementation 
-with comparatively simpler styling. This highlighted differences in default assumptions and design orientation between the models.
+Key Observations :
+Prompt specificity strongly affected output quality.
+Clear constraints reduced unnecessary assumptions.
+Claude tended to include additional UI features by default, while ChatGPT focused more on functional and minimal implementations.
+Iterative prompting improved structural clarity and reusability in both cases.
 
-Tech Stack
-React
-JavaScript
-CSS
+Tech Stack :
+React | JavaScript | CSS
 
-Purpose
-This experiment was conducted to better understand how LLMs can assist in development workflows and how prompt design impacts code quality and architectural decisions.
+Purpose : To understand how LLM behavior and prompt design influence code structure and development workflows.
